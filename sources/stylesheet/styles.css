@@ -1,0 +1,84 @@
+/* File: styles.css */
+/* This file contains the styles for the Dasmoto's Arts and Crafts project. */ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px 5px 0 5px;
+}
+
+div { 
+    margin: 15px 0;
+    /*border: 1px solid black;*/
+    padding: 5px;
+}
+
+h1, h2, h3 {
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 100px;
+    background-color: transparent;
+    color: khaki;
+}
+
+h2 {
+    font-size: 32px;
+    color: white;
+    margin: 10px 0;
+}
+
+h3 {
+    color: black;
+    margin: 10px 0;
+}
+
+p {
+    margin: 0;
+    color: black;
+    font-family: Helvetica;;
+}
+
+#brushes-header {
+    background-color: mediumspringgreen;
+}
+
+#frame-header {
+    background-color: lightcoral;
+}
+
+#paint-header {
+    background-color: skyblue;
+}
+
+#main-title {
+    text-align: center;
+    margin: 50px 0;
+    height: 130px;
+    background-image: url("../images/pattern.jpg");
+}
+
+.price-item {
+    color: blue;
+    font-weight: bold; 
+}
+
+img {
+    margin: 10px 0;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px; 
+    text-align: right;
+    background-color: rgb(212, 211, 211);
+    color: black;
+    margin-top: 10px 0 0 0;
+    border-top: 2px solid black;
+}
